@@ -11,7 +11,7 @@
 # Site settings
 title: Hi, I'm Emanuel :wave:
 email: er429@cornell.edu
-description: >- # this means to ignore newlines until "baseurl:"
+description: >
   A portfolio of case studies, dashboards, and strategy projects focused on
   go-to-market operations, revenue strategy, analytics and insights for
   SaaS companies and growth-stage organizations.
