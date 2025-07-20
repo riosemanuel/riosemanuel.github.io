@@ -13,14 +13,15 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
-title: MM
-email:
+title: Hi, I'm Emanuel :wave:
+email: er429@cornell.edu
 description: >- # this means to ignore newlines until "baseurl:"
-  Write an awesome description for your new site here. You can edit this
-  line in _config.yml. It will appear in your document head meta (for
-  Google search results) and in your feed.xml site description.
-twitter_username: username
-github_username: username
+  A portfolio of case studies, dashboards, and strategy projects focused on
+  go-to-market operations, revenue strategy, analytics and insights for
+  SaaS companies and growth-stage organizations.
+url: "https://riosemanuel.github.io"
+# twitter_username: username
+github_username: riosemanuel
 minimal_mistakes_skin: default
 search: true
 
@@ -56,36 +57,22 @@ plugins:
   - jekyll-feed
   - jemoji
   - jekyll-include-cache
+  - jemoji
 
 author:
-  name   : "First Lastname"
+  name   : "Emanuel Rios"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "My awesome biography constrained to a sentence or two goes here."
-  links:
-    - label: "Website"
-      icon: "fas fa-fw fa-link"
-      url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
+  bio    : "GTM strategist and RevOps leader with 15+ years driving revenue growth through data-driven insights and operational excellence."
+links:
+    - label: "LinkedIn"
+      icon: "fab fa-linkedin"
+      url: "https://www.linkedin.com/in/emanuelrios"
     - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
-
-footer:
-  links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      url: "https://instagram.com/"
+      icon: "fab fa-github"
+      url: "https://github.com/riosemanuel"
+    - label: "Email"
+      icon: "fas fa-envelope"
+      url: "mailto:er429@cornell.edu"
 
 defaults:
   # _posts
