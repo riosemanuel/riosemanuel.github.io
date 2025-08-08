@@ -69,14 +69,3 @@ author:
     - label: "Email"
       icon: "fas fa-envelope"
       url: "mailto:er429@cornell.edu"
-
-# Instead of separate pages, use anchor links
-main:
-  - title: "About"
-    url: "#about"
-  - title: "Services" 
-    url: "#services"
-  - title: "Portfolio"
-    url: "#portfolio"
-  - title: "Contact"
-    url: "#contact"
