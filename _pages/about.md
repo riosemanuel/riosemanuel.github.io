@@ -7,38 +7,46 @@ author_profile: true
 
 # Turning Data Into Revenue Growth
 
-I'm a strategy and analytics leader who helps SaaS companies unlock growth through smarter use of their data. With over 10 years of experience and an engineering background spanning everything from space station hardware testing to revenue operations, I bring a unique problem-solving approach that combines technical precision with business strategy.
+I'm a strategy and analytics leader who helps SaaS companies unlock growth through smarter use of their data. With 10+ years of experience and an engineering background that spans space station hardware testing to revenue operations, I bring a unique problem-solving approach that blends technical precision with business strategy.
 
 ## What I Do
 
-I specialize in transforming complex data into clear, actionable insights that drive real results. Whether it's optimizing your go-to-market strategy, building executive dashboards, or implementing AI-driven analytics, I focus on creating solutions that reduce time-to-insight and enable confident decision-making at every level of your organization.
+I turn complex data into clear, actionable insights that drive measurable revenue impact. Whether it's:
+- Building forecasting models with ±10% accuracy,
+- Implementing AI-powered insights that cut executive prep time by 30%, or
+- Conducting analyses that drive 20% resource shifts to high-performing channels—
 
-My sweet spot is working with SaaS companies who need rapid deployment of analytics solutions that scale with their growth.
+My goal is to build solutions that scale with your growth.
+
+I've delivered executive-facing analytics at McKesson ($140B+), Avalara, and Datto, and influenced decisions across sales, marketing, and partner ecosystems. My work bridges strategy and execution, supported by tools like Snowflake, Power BI, and Salesforce, and guided by frameworks grounded in Six Sigma and my MBA from Cornell.
 
 ## How I Can Help
 
-**Revenue Analytics & Strategy**
-Building comprehensive frameworks that connect your data to revenue outcomes, from customer acquisition through expansion and retention.
+**Revenue Analytics & Strategy**  
+Linking data to business outcomes across the customer lifecycle.
 
-**GTM Optimization** 
-Streamlining your sales and marketing operations with data-driven insights that accelerate pipeline velocity and improve conversion rates.
+**GTM Optimization**  
+Accelerating pipeline velocity and conversion through operational insights.
 
-**Executive Reporting**
-Creating executive-level dashboards and reporting systems that turn data into compelling narratives for C-level decision making.
+**Executive Reporting**  
+Turning complex metrics into compelling narratives that inform board-level decisions.
 
-**Partner Channel Analytics**
-Optimizing partner and channel performance through targeted analytics and operational improvements.
+**Partner Channel Analytics**  
+Driving partner performance through segmentation, enablement, and strategic analysis.
 
 ## My Approach
 
-I believe the best analytics solutions are the ones that actually get used. That's why I focus on building scalable frameworks that are both technically sound and user-friendly. Every project starts with understanding your specific business challenges and ends with solutions that deliver measurable results.
+The best analytics are the ones that get used.
 
-With Six Sigma certification and an engineering degree from Cornell, I bring methodical precision to every engagement. From technical implementation to business strategy, I help SaaS companies turn their data into their competitive advantage.
+That’s why I focus on scalable frameworks that are both technically sound and stakeholder-friendly. I start with your specific GTM challenges and deliver solutions that generate measurable ROI.
 
-Want to see this approach in action? [Check out my case studies](/portfolio/) to see real examples of data-driven transformations.
+With a Six Sigma certification, a Cornell MBA, and a mechanical engineering foundation from Stevens, I bring methodical precision and strategic perspective to every engagement.
 
-## Let's Connect
+Want to see this approach in action? [Explore my case studies](/portfolio/).
 
-I'm available for remote projects and hybrid engagements in the NYC/Connecticut metro area. Whether you need a strategic analytics review or a full revenue operations transformation, I'd love to discuss how we can work together.
+## Let’s Connect
 
-[Get in touch](mailto:er429@cornell.edu) to explore how data-driven insights can accelerate your growth.
+I’m available for remote projects and hybrid engagements in the NYC/Connecticut area.  
+Let’s talk about how we can turn your data into a strategic advantage.
+
+📬 [er429@cornell.edu](mailto:er429@cornell.edu)
