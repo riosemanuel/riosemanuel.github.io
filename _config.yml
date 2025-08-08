@@ -54,10 +54,11 @@ plugins:
   - jemoji
   - jekyll-include-cache
 
+# Fixed Author Section (Sidebar)
 author:
   name   : "Emanuel Rios"
   avatar : "/assets/images/bio-photo.jpg"
-  bio    : "GTM strategist and RevOps leader with 15+ years driving revenue growth through data-driven insights and operational excellence."
+  bio    : "GTM strategist, analytics and RevOps leader with 15+ years driving revenue growth through data-driven insights and operational excellence."
   links:
     - label: "LinkedIn"
       icon: "fab fa-linkedin"
@@ -69,29 +70,13 @@ author:
       icon: "fas fa-envelope"
       url: "mailto:er429@cornell.edu"
 
-defaults:
-  # _posts
-  - scope:
-      path: ""
-      type: posts
-    values:
-      layout: single
-      author_profile: true
-      read_time: true
-      comments: true
-      share: true
-      related: true
-  # _pages
-  - scope:
-      path: "_pages"
-      type: pages
-    values:
-      layout: single
-      author_profile: true
-
-category_archive:
-  type: liquid
-  path: /categories/
-tag_archive:
-  type: liquid
-  path: /tags/
+# Instead of separate pages, use anchor links
+main:
+  - title: "About"
+    url: "#about"
+  - title: "Services" 
+    url: "#services"
+  - title: "Portfolio"
+    url: "#portfolio"
+  - title: "Contact"
+    url: "#contact"
