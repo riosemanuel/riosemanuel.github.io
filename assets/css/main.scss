@@ -1,11 +1,8 @@
 ---
-// Only the main Sass file needs front matter (The dashes are required)
 ---
 
-@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
-@import "minimal-mistakes"; // main partials
+@import "minimal-mistakes";
 
-// Your custom CSS here
 html {
   scroll-behavior: smooth;
 }
