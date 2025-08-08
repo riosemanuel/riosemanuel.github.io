@@ -1,6 +1,11 @@
-// Single page structure CSS
-@import "minimal-mistakes";
+---
+# Only the main Sass file needs front matter (the dashes are required)
+---
 
+@import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
+@import "minimal-mistakes"; // main partials
+
+// Single page structure CSS
 html {
   scroll-behavior: smooth;
 }
@@ -26,5 +31,5 @@ section {
 
 // Adjust scroll offset for anchor links
 section {
-  scroll-margin-top: 80px; /* Adjust this value based on your header height */
+  scroll-margin-top: 80px;
 }
