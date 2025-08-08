@@ -8,3 +8,22 @@ section {
   padding: 60px 0;
   min-height: 50vh;
 }
+
+// Sticky header CSS
+.masthead {
+  position: sticky !important;
+  top: 0 !important;
+  z-index: 1000 !important;
+  background-color: white !important;
+  box-shadow: 0 2px 4px rgba(0,0,0,0.1) !important;
+}
+
+// Add some top padding to account for the fixed header
+.page__content {
+  padding-top: 20px;
+}
+
+// Adjust scroll offset for anchor links
+section {
+  scroll-margin-top: 80px; /* Adjust this value based on your header height */
+}
