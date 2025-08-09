@@ -27,3 +27,29 @@ section {
 section {
   scroll-margin-top: 80px;
 }
+
+/* Make sidebar text and icons larger */
+.author__name {
+  font-size: 1.4em !important; /* Default is usually 1em */
+}
+
+.author__bio {
+  font-size: 1.1em !important; /* Make bio text bigger */
+  line-height: 1.5 !important; /* Add breathing room */
+}
+
+.author__urls .fas,
+.author__urls .fab {
+  font-size: 1.3em !important; /* Make icons bigger */
+}
+
+.author__urls a {
+  font-size: 1.1em !important; /* Make link text bigger */
+  padding: 8px 0 !important; /* Add more spacing */
+}
+
+/* Optional: Make avatar bigger too */
+.author__avatar img {
+  width: 120px !important;
+  height: 120px !important;
+}
