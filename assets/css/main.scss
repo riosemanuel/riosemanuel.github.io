@@ -26,10 +26,29 @@ section {
   padding-top: 20px;
 }
 
-/* Sidebar styling with gradient background */
-.sidebar {
+/* Full page gradient background */
+body {
   background: linear-gradient(180deg, #f8f9fa 0%, #e9ecef 100%) !important;
-  border-right: 1px solid #dee2e6 !important;
+  min-height: 100vh !important;
+}
+
+/* Sidebar styling - remove separate background since body has it */
+.sidebar {
+  background: transparent !important;
+  border-right: none !important;
+}
+
+/* Main content area - white background to "pop" against gradient */
+.page {
+  background-color: white !important;
+  margin-left: 0 !important;
+  border-radius: 0 0 0 0 !important;
+}
+
+.page__inner-wrap {
+  background-color: white !important;
+  padding: 2rem !important;
+  margin: 0 !important;
 }
 
 /* Author section styling */
@@ -55,15 +74,6 @@ section {
 .author__avatar img {
   width: 120px !important;
   height: 120px !important;
-}
-
-/* Main content area subtle background */
-.page {
-  background-color: #fdfdfd !important;
-}
-
-.page__inner-wrap {
-  background-color: #fdfdfd !important;
 }
 
 /* Case Study Integration Styles */
@@ -351,24 +361,101 @@ section {
   }
 }
 
+/* Mobile-specific case study optimizations */
 @media (max-width: 768px) {
   .case-page {
-    padding: 2rem 1.5rem;
+    padding: 1rem !important;
+    font-size: 0.9rem;
   }
   
   .page-title {
-    font-size: 2rem;
+    font-size: 1.6rem !important;
+    margin-bottom: 1rem !important;
   }
   
   .section-header {
-    font-size: 1.5rem;
+    font-size: 1.3rem !important;
+    margin-bottom: 1rem !important;
+    margin-top: 1.5rem !important;
   }
   
   .content-text {
-    font-size: 1rem;
+    font-size: 0.95rem !important;
+    text-align: left !important;
+    line-height: 1.5 !important;
   }
   
   .case-study-preview {
-    padding: 1.5rem;
+    padding: 1.5rem !important;
+    margin: 1rem 0 !important;
+  }
+  
+  .case-study-preview h3 {
+    font-size: 1.2rem !important;
+  }
+  
+  /* Mobile close button positioning */
+  .close-case-study {
+    position: fixed !important;
+    top: 1rem !important;
+    right: 1rem !important;
+    padding: 0.8rem 1.2rem !important;
+    font-size: 0.9rem !important;
+    border-radius: 6px !important;
+    z-index: 102 !important;
+  }
+  
+  /* Mobile progress dots */
+  .progress-dots {
+    bottom: 0.5rem !important;
+    padding: 0.6rem 1rem !important;
+    gap: 0.6rem !important;
+  }
+  
+  .dot {
+    width: 8px !important;
+    height: 8px !important;
+  }
+  
+  /* Mobile page navigation hints */
+  .navigation-hint {
+    bottom: 1rem !important;
+    left: 1rem !important;
+    font-size: 0.8rem !important;
+  }
+  
+  .page-number {
+    bottom: 1rem !important;
+    right: 1rem !important;
+    padding: 0.4rem 0.8rem !important;
+    font-size: 0.8rem !important;
+  }
+  
+  /* Mobile content adjustments */
+  .business-model,
+  .problem-box,
+  .analysis-questions,
+  .results-section {
+    padding: 1rem !important;
+    margin: 1rem 0 !important;
+  }
+  
+  .finding-item {
+    padding: 1rem !important;
+  }
+  
+  .highlight {
+    padding: 1rem !important;
+    margin: 1rem 0 !important;
+  }
+  
+  /* Mobile body background adjustment */
+  body {
+    background-attachment: fixed !important;
+  }
+  
+  /* Ensure mobile sidebar works properly */
+  .sidebar {
+    position: static !important;
   }
 }
